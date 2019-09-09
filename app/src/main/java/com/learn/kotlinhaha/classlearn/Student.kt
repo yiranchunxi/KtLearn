@@ -7,15 +7,8 @@ class Student:Person(){
      * name提供set get 方法 对外暴露功能
      * 对细节隐藏，只暴露自定义暴露的东东，就是属于封装的体现
      */
-    private  var name:String=""
 
-    fun  getName():String{
-        return name
-    }
 
-    fun setName(name: String){
-        this.name=name
-    }
 
     private var age:Int=0
 
@@ -44,15 +37,6 @@ class Student:Person(){
             return
         }
     }
-
-
-    override var personName: String
-        get() = super.personName
-        set(value) {
-            personName=value
-        }
-
-
 
 
 }
